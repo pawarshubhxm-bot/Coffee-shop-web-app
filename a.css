@@ -286,6 +286,37 @@ header .navbar {
   font-size: var(--font-size-m);
 }
 
+.testimonials-section{
+  padding: 50px 0 100px;
+  background: var(--light-pink-color);
+}
+
+.testimonials-section .testimonial{
+  display: flex;
+  padding: 35px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-section .testimonial .user-image{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--border-radius-circle);
+  margin-bottom: 50px;
+}
+
+.testimonials-section .testimonial .name{
+  margin-bottom: 16px;
+  font-size: var(--font-size-m);
+}
+
+.testimonials-section .testimonial .feedback{
+  line-height: 25px;
+}
+
+/* 1024px */
 @media screen and (max-width: 1024px){
 
 
@@ -299,7 +330,7 @@ header .navbar {
 
 }
 
-
+/* 900px */
 @media screen and (max-width: 900px) {
   :root {
    
@@ -411,6 +442,7 @@ body.show-mobile-menu header::before{
 
 }
 
+/* 640px */
 @media screen and (max-width:640px){
   
 
